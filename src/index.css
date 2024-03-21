@@ -1,0 +1,25 @@
+/* roboto slab Font  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Slab&display=swap');
+
+/* mulish font  */
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate:hover {
+  transform: rotate(360deg);
+  transition: 0.5s ease-in-out;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #eb9797 10%, #711d23 80%, #510b0e 10%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.box-shadow {
+  box-shadow: 0 4px 12px 2px rgba(0, 0, 0, 0.1);
+}
